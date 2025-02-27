@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+# Personal Portfolio Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive personal portfolio website showcasing my expertise as a backend developer with full-stack capabilities. This landing page highlights my experience in building efficient, secure, and scalable applications, competitive programming background, and professional journey.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design**: Looks great on all devices - mobile, tablet, and desktop
+- **Modern UI**: Clean design with smooth animations and transitions
+- **Component-Based Architecture**: Built with reusable React components
+- **TypeScript**: Enhanced code quality and developer experience with static typing
+- **Custom Styling**: Hand-crafted CSS with variables for easy theming
+- **Contact Form**: Interactive form for visitors to reach out to me
 
-### `npm start`
+## Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Hero**: Eye-catching introduction with call-to-action buttons
+2. **About**: Personal information highlighting backend expertise and competitive programming background
+3. **Career Journey**: Timeline of professional growth and key milestones
+4. **Projects**: Showcase of backend and full-stack work with descriptions and links
+5. **Contact**: Contact form and alternative contact methods
+6. **Footer**: Navigation links, social media, and copyright information
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## My Expertise
 
-### `npm test`
+- **Backend Development**: Years of experience building small, efficient, fast, and secure monolith applications as well as scalable, stable, and highly performant microservices architectures
+- **Full-Stack Capabilities**: Complementary front-end skills to create complete solutions
+- **Competitive Programming**: Strong algorithmic thinking and problem-solving skills honed through competitive programming
+- **System Design**: Experience designing robust and scalable systems for various business needs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v12 or higher)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation and Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
+```
+git clone https://github.com/yourusername/personal-portfolio.git
+cd personal-portfolio
+```
 
-### `npm run eject`
+2. Install dependencies
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Start the development server
+```
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open your browser and visit `http://localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Customization
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **Personal Information**: Replace placeholder text and images in components with your own
+- **Colors**: Modify color variables in `src/index.css` to match your personal brand
+- **Projects**: Update the `projectsData` array in `src/components/Projects.tsx` with your own projects
+- **Contact**: Update email and location information in the Contact component
 
-## Learn More
+## Building for Production
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To create an optimized production build:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm run build
+```
+
+The build files will be located in the `build` directory and can be deployed to any static hosting service.
+
+## Technologies Used
+
+- React.js
+- TypeScript
+- CSS3
+- HTML5
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- Create React App for the project setup
+- [Placeholder.com](https://placeholder.com) for placeholder images
