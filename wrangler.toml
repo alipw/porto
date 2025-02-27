@@ -1,0 +1,7 @@
+[site]
+bucket = "./build"
+entry-point = "/"
+
+[build]
+command = "npm run build"
+upload.format = "service-worker" 

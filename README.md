@@ -71,6 +71,35 @@ npm run build
 
 The build files will be located in the `build` directory and can be deployed to any static hosting service.
 
+## Deploying to Cloudflare Pages
+
+This project is configured for easy deployment to Cloudflare Pages. Follow these steps:
+
+1. Push your code to a GitHub repository
+
+2. Log in to your Cloudflare dashboard and navigate to Pages
+
+3. Click "Create a project" and select "Connect to Git"
+
+4. Choose your repository and configure the deployment with these settings:
+   - Production branch: `main` (or your preferred branch)
+   - Build command: `npm run build`
+   - Build output directory: `build`
+   - Environment variables (optional): Add any environment variables needed
+
+5. Click "Save and Deploy"
+
+Cloudflare Pages will automatically build and deploy your site. Each new commit to your repository will trigger a new deployment.
+
+### Custom Domain
+
+To set up a custom domain:
+1. In your Cloudflare Pages project, go to "Custom domains"
+2. Click "Set up a custom domain"
+3. Follow the instructions to configure your domain
+
+The configured security headers, redirects, and routes in the public directory will ensure your site works correctly on Cloudflare Pages.
+
 ## Technologies Used
 
 - React.js
